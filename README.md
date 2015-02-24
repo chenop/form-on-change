@@ -20,7 +20,7 @@ Add form-on-change.js to list of scripts:
 <script src="bower_components/form-on-change/form-on-change.js"></script>
 ```
 
-Add module dependence
+Add module dependency
 ```javascript
 angular.module('your-app-name', ['chenop.form-on-change']);
 ```
