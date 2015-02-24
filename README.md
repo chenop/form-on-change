@@ -1,6 +1,6 @@
-Use Case:
+## ng-change like functionality for the entire form
 
-When given a form - we would like to call a method for every change in on of the forms fields.
+<b>Use Case:</b> When given a form - we would like to call a method for every change in on of the forms fields.<br>
 For example: Update the server for each change in one of our fields.
 
 the form-on-change directive support <input> elements, <textarea> boxes and <select> elements.
