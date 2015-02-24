@@ -9,3 +9,15 @@ We listen to the 'change' event so according to [JQuery documentation](http://ap
 > The change event is sent to an element when its value changes. 
 > This event is limited to <input> elements, <textarea> boxes and <select> elements. 
 > For select boxes, checkboxes, and radio buttons, the event is fired immediately when the user makes a selection with the mouse, but for the other element types the event is deferred until the element loses focus.
+
+### Install
+```
+bower install form-on-change
+```
+### Usage
+```html
+<form name="form1" form-on-change="doSomething()">
+  <input ng-model="formData.a">
+  <input ng-model="formData.b">
+</form>
+```
