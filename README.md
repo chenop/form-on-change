@@ -4,7 +4,7 @@
 For example: Update the server for each change in one of our fields.
 
 the form-on-change directive support <input> elements, <textarea> boxes and <select> elements.
-We listen to the 'change' event so according to [JQuery documentation](http://api.jquery.com/change/)
+by listening to the 'change' event so according to [JQuery documentation](http://api.jquery.com/change/):
 
 > The change event is sent to an element when its value changes. 
 > This event is limited to <input> elements, <textarea> boxes and <select> elements. 
