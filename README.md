@@ -1,4 +1,4 @@
-## ng-change like functionality for the entire form
+## AngularJS ng-change like functionality for the entire form
 
 <b>Use Case:</b> When given a form - we would like to call a method for every change in on of the forms fields.<br>
 For example: Update the server for each change in one of our fields.
