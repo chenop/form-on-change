@@ -15,6 +15,16 @@ by listening to the 'change' event so according to [JQuery documentation](http:/
 bower install form-on-change
 ```
 ### Usage
+Add form-on-change.js to list of scripts:
+```javascript
+<script src="bower_components/form-on-change/form-on-change.js"></script>
+```
+
+Add module dependence
+```javascript
+angular.module('your-app-name', ['chenop.form-on-change']);
+```
+In your HTML it should look something like that:
 ```html
 <form name="form1" form-on-change="doSomething()">
   <input ng-model="formData.a">
