@@ -1,0 +1,28 @@
+{
+  "name": "form-on-change",
+  "version": "0.0.1",
+  "description": "ng-change like functionality for the entire form",
+  "main": "form-on-change.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "form",
+    "on-change"
+  ],
+  "authors": [
+    "Chen Oppenhaim"
+  ],
+  "dependencies": {
+    "angular": "~1"
+  },
+  "license": "MIT",
+  "homepage": "http://github.com/chenop",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
