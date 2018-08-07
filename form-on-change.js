@@ -5,7 +5,9 @@ angular.module('chenop.form-on-change', [])
             link: function(scope, element, attrs){
                 var callBack = $parse(attrs.formOnChange);
                 element.on("change", function(){
-                    callBack(scope);
+                    setTimeout(function() {
+                        callBack(scope);
+                    }, 0);
                 });
             }
         }
